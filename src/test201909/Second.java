@@ -20,6 +20,8 @@ public class Second{
                         r[t] = 1;
                         number = q;
 
+                    }else{
+                        number=q;
                     }
                 }else{
                     number += q;
