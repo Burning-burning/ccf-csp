@@ -20,11 +20,17 @@ public class Second {
             System.out.print(m[a][b]+" ");
             if(a==n-1 && flag){
                 b++;
+                if (b>n-1){
+                    break;
+                }
                 flag = !flag;
                 System.out.print(m[a][b]+" ");
 
             }else if (b==n-1 && !flag){
                 a++;
+                if (a>n-1){
+                    break;
+                }
                 System.out.print(m[a][b]+" ");
                 flag = !flag;
 
